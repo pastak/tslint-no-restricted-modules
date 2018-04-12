@@ -1,0 +1,29 @@
+{
+  "name": "tslint-no-restricted-modules",
+  "version": "1.0.0",
+  "description": "tslint rule for no-restricted-modules",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src --outDir dist",
+    "prepublish": "build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pastak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pastak/tslint-no-restricted-modules.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "bugs": {
+    "url": "https://github.com/pastak/tslint-no-restricted-modules/issues"
+  },
+  "homepage": "https://github.com/pastak/tslint-no-restricted-modules#readme",
+  "devDependencies": {
+    "@types/node": "^9.6.4",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  }
+}
